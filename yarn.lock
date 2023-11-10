@@ -443,12 +443,10 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.5.tgz#deed5ab7019756c9c90ea86139106b0346223f35"
   integrity sha512-+d+WYC1BxJ6yVOgUgzK8gWvp5qF8ssV5r4nsDcZWKRWcDQLQ619tvWAxJQYGgBrO1MnLJC7a5GtiYsAoQ47dJg==
 
-"@valiantlynx/tsconfig@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@valiantlynx/tsconfig/-/tsconfig-0.0.2.tgz#570b580f8ba31feb15954f87e4b3e5ad2d213a6c"
-  integrity sha512-Qo9Utq/BOnsZwNcvGtsJPC86a2dpFvLMPNXH2jERU/oZFVPilsSF3kci5LZf7VqGYsf3OnEKHu1DdsdUiC94uA==
-  dependencies:
-    "@changesets/cli" "^2.26.2"
+"@valiantlynx/tsconfig@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@valiantlynx/tsconfig/-/tsconfig-0.0.3.tgz#ddf6253ea7a1ecf7d773be8dc8bc49842033af2e"
+  integrity sha512-aL8nLTC1TxcKquxWeDoKmidKeoFiNNIZx5uteCrP4UaaR3XDRbvx6JHdQXkrPa4z9/r1FTiLrGPMnmn7c9cPXA==
 
 ansi-colors@^4.1.1, ansi-colors@^4.1.3:
   version "4.1.3"
