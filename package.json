@@ -28,7 +28,7 @@
   "homepage": "https://github.com/valiantlynx/general-config#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "fff-flavored-frontmatter": "^1.1.0",
+    "fff-flavored-frontmatter": "^1.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "@valiantlynx/tsconfig": "^0.0.4"
