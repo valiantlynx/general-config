@@ -16,3 +16,7 @@ e.g. themes, colors, fonts, etc.
 # usage of changeset
 - `git tag -l`
 - `yarn changeset`
+
+git subtree add --prefix=packages/general-config https://github.com/valiantlynx/general-config.git main --squash
+git subtree pull --prefix=packages/general-config https://github.com/valiantlynx/general-config.git main --squash
+git subtree push --prefix=packages/general-config https://github.com/valiantlynx/general-config.git main
