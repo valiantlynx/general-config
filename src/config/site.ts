@@ -9,7 +9,7 @@ export const site: SiteConfig = {
 	noImage: '/assets/no-image.png',
 	title: 'valiantlynx',
 	subtitle: 'Where Imagination Meets Innovation',
-	pocketbase: 'https://animevariant.fly.dev',
+	pocketbase: 'https://whalescans.fly.dev',
 	lang: 'en-US',
 	description:
 		'Multi-Disciplinary Engineer: Exploring the Intersection of AI, Blockchain, Web Development, and Product Design',
