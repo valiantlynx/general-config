@@ -1,5 +1,11 @@
 # @valiantlynx/general-config
 
+## 0.0.25
+
+### Patch Changes
+
+- 1d26e0e: upgrade tsconfig
+
 ## 0.0.24
 
 ### Patch Changes
