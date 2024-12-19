@@ -1,5 +1,11 @@
 # @valiantlynx/general-config
 
+## 0.0.26
+
+### Patch Changes
+
+- caafc92: forgot about the dist
+
 ## 0.0.25
 
 ### Patch Changes
