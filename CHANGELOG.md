@@ -1,5 +1,17 @@
 # @valiantlynx/general-config
 
+## 0.0.28
+
+### Patch Changes
+
+- testing again
+
+## 0.0.27
+
+### Patch Changes
+
+- update påackage json
+
 ## 0.0.26
 
 ### Patch Changes

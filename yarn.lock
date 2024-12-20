@@ -443,7 +443,7 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.5.tgz#deed5ab7019756c9c90ea86139106b0346223f35"
   integrity sha512-+d+WYC1BxJ6yVOgUgzK8gWvp5qF8ssV5r4nsDcZWKRWcDQLQ619tvWAxJQYGgBrO1MnLJC7a5GtiYsAoQ47dJg==
 
-"@valiantlynx/tsconfig@^0.0.4":
+"@valiantlynx/tsconfig@0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@valiantlynx/tsconfig/-/tsconfig-0.0.4.tgz#3430b28f8ceb21d85c99a3bf528cf4a43f6705ec"
   integrity sha512-uAmxRHzxpW73jS+TI9+MgAMDEz8rXcFwOUmg183gGXxst+njKgxWte5KmZoprRBXWCFk13RtuQQDBnWaaQLbQg==

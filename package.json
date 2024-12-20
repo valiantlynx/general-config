@@ -1,7 +1,28 @@
 {
   "name": "@valiantlynx/general-config",
-  "version": "0.0.26",
+  "version": "0.0.28",
+  "description": "General configuration package for valiantlynx projects.",
+  "maintainers": [
+    "valiantlynx <valiantlynxz@gmail.com> (https://www.valiantlynx.com/)"
+  ],
+  "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": ">=16.14"
+  },
+  "keywords": [
+    "configuration",
+    "typescript",
+    "general",
+    "valiantlynx",
+    "projects"
+  ],
+  "author": "valiantlynx",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valiantlynx/general-config.git"
+  },
+  "homepage": "https://github.com/valiantlynx/general-config#readme",
   "scripts": {
     "build": "tsup",
     "lint": "tsc",
@@ -12,25 +33,40 @@
     "version:packages": "changeset version",
     "release": "yarn version:packages && yarn publish:packages"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "require": "./dist/*.cjs",
+      "default": "./dist/*.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/valiantlynx/general-config.git"
-  },
+  "type": "module",
   "bugs": {
     "url": "https://github.com/valiantlynx/general-config/issues"
   },
-  "homepage": "https://github.com/valiantlynx/general-config#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "fff-flavored-frontmatter": "^1.1.0",
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2",
-    "@valiantlynx/tsconfig": "^0.0.25"
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@valiantlynx/tsconfig": "0.0.4"
   }
 }
